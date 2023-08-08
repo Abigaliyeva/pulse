@@ -1,0 +1,21 @@
+// @media ( max-width: 1080px ) {
+//     .carousel {
+//         &__next, &__prev {
+//             display: none;
+//         }
+//     }
+// }
+
+@media ( max-width: 991px ) {
+    // .container {
+    //     width: ;
+    // }
+    .catalog {
+        &__content {
+            justify-content: space-around;
+        }
+    }
+    .catalog-item {
+        margin-right: 0;
+    }
+}
